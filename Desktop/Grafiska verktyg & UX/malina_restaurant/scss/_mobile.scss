@@ -1,0 +1,349 @@
+
+.navbar {
+  transition:500ms ease;
+  background:transparent;
+}
+
+.navbar.scrolled{
+  opacity: 0.8;
+  background:#000;
+}
+
+.hamburger{
+  color: $color_white; 
+  padding-bottom: 40px;   
+}
+
+.menu_icon {
+  font-size: 50px;
+}
+
+html {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.frame_carousel {
+    height: 300px;
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+        min-height: 100%;
+    }
+}
+
+.menu_picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -5em;       
+}
+
+.love_for_art_text {
+    font-family: $font_heading;
+    text-align: center;
+    padding-top: 2em;
+    padding: 3em; 
+
+    p { 
+      font-family: $font_under_text;
+    }
+                       
+}
+
+.image_frame_logo img {
+    max-width: 6rem;
+    
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.95);
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    a {
+      font-family: $font_heading;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 36px;
+      color: $color_white;
+      display: block;
+      transition: 0.3s;
+
+    }
+  }
+  
+  .overlay-content {
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+  
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: $highlight;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 40px;
+    padding-right: 55px;
+  }
+ 
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .carousel-control-prev {
+    opacity: 1;
+    font-size: 3rem;
+
+    &:hover {
+     
+      color: $highlight;
+    }
+ 
+  }
+
+  .carousel-control-next {
+    opacity: 1;
+    font-size: 3rem;
+
+    &:hover {
+     
+      color: $highlight;
+    }
+ 
+  }
+
+  .copyright_mobile {
+    padding-top: 12em;
+    color: $color_white;
+  
+  }
+  
+  .carousel-control-next {
+    opacity: 1;
+    font-size: 3rem;
+
+    &:active {
+     
+      color: $highlight;
+    }
+  }
+
+  .carousel-caption {
+    font-size: 2rem; 
+    padding-bottom: 0;
+  }
+  
+
+  .text_info {
+    padding-bottom: 10px;
+  }
+
+  .text_info h1 {
+    font-family: Rajdhani;
+    margin-top: 0.5em
+
+  }
+
+  .text_info p {
+    font-family: $font_under_text;
+    margin-bottom: 2em;
+  }
+
+  .text_info hr {
+    opacity: 0.2;
+    border: 1px solid $highlight;
+  }
+
+  .frame_index_picture {
+    height: 250px;
+    overflow: hidden;
+    background-image: url("../images/outside.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .relax {
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+    }
+
+  }
+
+  .frame_menu_picture {
+    height: 250px;
+    overflow: hidden;
+    background-image: url("../images/hamburgers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+
+  .frame_chef_picture {
+    height: 250px;
+    overflow: hidden;
+    background-image: url("../images/johansjogren.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .head_chef {
+    font-size: 0.7rem;
+    font-family: $font_under_text;
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+  }
+  .about_chef {
+    font-family: $font_under_text;
+    opacity: 0.5;
+  }
+
+  .chef_by {
+    font-family: $font_under_text;
+    font-size: 1.1rem;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.text_menu hr {
+  opacity: 0.2;
+  border: 1px solid $highlight;
+  margin-bottom: 2em;
+  margin-top: 1.5em;
+}
+ 
+.carousel-caption {
+  bottom: -8px;
+}
+
+.footer {
+    background-color: #1F1F1F;
+    padding-left: 50px;
+}
+
+.footer_info {
+    color: $color_white;
+    padding-top: 0.5em;
+
+    .text_info {
+      margin-top: 0;
+    }
+}
+
+.footer_info h2 {
+    font-size: 1.5rem;
+    font-family: $font_under_text;
+}
+
+.footer_info {
+
+  p {
+
+    margin: 0 auto;
+    font-family: $font_under_text;
+    padding-left: 0.5em;
+
+    time {
+        margin: 0 auto;
+    font-family: $font_under_text;
+    padding-left: 0.5em;
+    }
+    }
+  }
+
+.footer_info address {
+  margin: 0 auto;
+  font-family: $font_under_text;
+  padding-left: 0.5em;
+}
+
+.footer_info .bar{
+  margin-bottom: 0;
+}
+
+.mail_link {
+  color: $color_white;
+
+  &:hover{
+    color: $highlight;
+    text-decoration: none;
+  }
+}
+
+p.text_logo_footer {
+  font-family: $font_under_text;
+  padding-left: 2em;
+}
+
+.head_lines h3 {
+  font-size: 2rem;
+  padding-left: 0.5em;
+}
+
+.head_lines h2 {
+  font-size: 1.5rem;
+  margin-top: 2em;
+
+}
+
+ h3.bar_footer {
+  font-family: $font_under_text;
+  font-size: 1rem;
+  padding-top: 1em;
+  margin-bottom: 0;
+}
+
+.head_lines .bar {
+  font-size: 1rem;
+  font-family: $font_under_text;
+}
+
+.social_media_icons a {
+    font-size: 50px;
+    color: $color_white;
+    padding: 0;
+
+    &:hover {
+      color: $highlight;
+      text-decoration: none;
+    }
+}
+
+.copyright {
+   padding-top: 2em;
+   padding-bottom: 4em;
+   color: $color_white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  

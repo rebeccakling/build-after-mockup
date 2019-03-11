@@ -1,0 +1,135 @@
+
+.frame_carousel {
+    height: 500px;
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+img.logo_tablet {
+    max-width: 225px;
+}
+
+.menu {
+        margin-top: -10px;
+
+        li {
+            font-family: $font_heading;
+            display: inline-block;
+            font-size: 23px;
+            padding: 0.5em;
+
+            a{ 
+                color: $color_white;
+
+                &:hover {
+                    text-decoration: none;
+                  }
+
+                &:active {
+                    color: #A43B0A;
+                    
+                  }
+            }
+        }    
+}
+
+.frame_index_picture {
+    height: 400px;
+}
+
+.frame_menu_picture {
+    height: 450px;
+}
+
+.frame_chef_picture {
+    height: 400px;
+}
+      
+.about_chef {
+    padding-right: 8em;       
+}
+
+.carousel-control-prev {
+    font-size: 5rem;      
+}
+    
+.carousel-control-next {    
+    font-size: 5rem;
+}
+
+.carousel-caption {
+    font-size: 3rem;    
+} 
+
+.text_info {
+    font-family: $font_under_text;
+    text-align: center;
+     margin-top: 1em;
+} 
+     
+.text_menu {
+    margin-top: 3em;
+}
+
+.logo_footer {
+    width: 120px;
+}
+
+.footer_info {
+    padding-top: 2em;
+    padding-left: 2em;
+
+    p {
+        font-size: 0.8rem
+    }
+}
+    
+    h3 {
+        font-size: 1rem;
+        font-family: $font_under_text
+     
+    }
+    
+.head_lines h2 {
+    padding-bottom: 1em;
+    font-size: 1rem;
+}
+
+.text_under_logo {
+    padding-top: 2em;
+}
+
+.link_icon {
+    color: $color_white;
+
+    &:hover {
+        color: $highlight;
+        text-decoration: none;
+      }
+}
+
+.icon_tablet { 
+    padding: .2rem;
+}
+
+.copyright {
+     padding-top: 4em;
+         
+}
+
+     
+    
+
+ 
+
+
+    
+    
+  
+
+

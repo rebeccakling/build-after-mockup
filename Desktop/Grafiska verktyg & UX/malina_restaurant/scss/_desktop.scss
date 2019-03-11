@@ -1,0 +1,127 @@
+
+.frame_carousel {
+    height: 800px;
+    img {
+
+       min-width: 100%;
+
+    }
+}
+
+img.logo_tablet{
+    max-width: 300px;
+}
+
+.text_info {
+
+    h1 {
+        margin-top: 1em;
+
+        p {
+            margin-bottom: 3em;
+        }
+
+    }
+}
+
+.menu {
+
+    li {
+        font-size: 30px;
+
+        a{ 
+            color: $color_white;
+
+            &:hover {
+                color: $highlight;
+                text-decoration: none;
+              }
+        }
+    }    
+}
+
+.frame_index_picture {
+    height: 500px;
+    padding-left: 40px;
+}
+
+.frame_menu_picture {
+    height: 650px;
+}
+
+.frame_chef_picture {
+    height: 500px;
+}
+
+.carousel-control-prev {
+    font-size: 6rem;   
+}
+
+.carousel-control-next {    
+    font-size: 6rem;
+}
+
+.carousel-caption {
+    font-size: 4.5rem;    
+} 
+
+.text_info {
+    margin-top: 2em;
+    font-size: 1.3rem;
+
+    h1 {
+        font-size: 3rem;
+    }
+} 
+
+.head_chef {
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+
+}
+
+.chef_by {
+    font-size: 1rem;
+    padding-left: 20em;   
+}
+
+.footer_info {
+    padding-top: 0.9em;
+    h2 {
+        font-size: 1.5rem;   
+    }
+    p, address {
+        font-size: 1.2rem;
+    }
+}
+
+.head_lines h2 {
+    padding-top: 1em;
+    font-size: 1.7rem;
+}
+
+
+.logo_footer {
+    width: 200px;
+    margin-top: 25px;  
+}
+
+.text_under_logo {
+    padding-top: 2.3em;
+}
+
+.footer {
+    padding-left: 70px;
+}
+
+.opening {
+    padding-left: 50px
+}
+
+.address {
+    padding-left: 50px
+}
+
+.follow_us {
+    padding-left: 50px
+}
